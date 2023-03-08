@@ -33,7 +33,7 @@ ORDER BY COUNT(*) DESC;
 
 
 USE `STUDENTS`;
--- TODO: Q4
+-- Q4
 SELECT s.classroom, MIN(s.LastName) AS FirstStudent
 FROM list AS s, teachers AS t
 WHERE s.classroom = t.classroom
