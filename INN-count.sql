@@ -4,7 +4,7 @@
 
 
 USE `INN`;
--- TODO: Q1
+-- Q1
 SELECT rooms.RoomName, SUM(Rate * DATEDIFF(CheckOut, CheckIn)) AS Revenue,
     AVG(Rate * DATEDIFF(CheckOut, CheckIn)) AS AvgRevenue
 FROM rooms, reservations
