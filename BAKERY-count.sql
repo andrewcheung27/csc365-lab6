@@ -58,7 +58,7 @@ ORDER BY SUM(goods.PRICE) DESC;
 
 
 USE `BAKERY`;
--- TODO: Q5
+-- Q5
 SELECT customers.LastName, customers.FirstName,
     COUNT(DISTINCT receipts.RNumber) AS FiveItemPurchases
 FROM items, receipts, customers
